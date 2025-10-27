@@ -1,15 +1,15 @@
 {
   "name": "Mohamed Radwan",
   "title": {
-    "en":   "credentials": "Microsoft DevOps MVP, 24+ years experience",
-  "image": "/src/assets/images/founder/mohamed-radwan.png",
+    "en": "Microsoft DevOps MVP, Founder of DevOps Visions & Elmentor Program (24+ years experience)",
     "ar": "مستشار Microsoft DevOps MVP، مؤسس رؤى DevOps وبرنامج إلمنتور (24+ عامًا من الخبرة)"
   },
+  "credentials": "Microsoft DevOps MVP, 24+ years experience",
+  "image": "/src/assets/images/founder/mohamed-radwan.png",
   "bio": {
     "en": "Mohamed Radwan is a Microsoft MVP with over 24 years of experience in the tech industry. He has worked with more than 60 global enterprise companies, specializing in DevOps, Azure, Agile, and GitHub. Mohamed is passionate about automation, community contributions, and is a frequent speaker at major technology conferences. He founded DevOps Visions, a professional services entity, and the Elmentor Program to empower tech professionals through mentorship, collaborative knowledge sharing, and cutting-edge DevOps practices.",
     "ar": "محمد رضوان هو مستشار Microsoft MVP مع أكثر من 24 عامًا من الخبرة في صناعة التكنولوجيا. عمل مع أكثر من 60 شركة عالمية كبرى، متخصصًا في DevOps وAzure وAgile وGitHub. محمد شغوف بالأتمتة ومساهمات المجتمع، وهو متحدث متكرر في المؤتمرات التكنولوجية الكبرى. أسس رؤى DevOps، كيان خدمات مهنية، وبرنامج إلمنتور لتمكين المهنيين التكنولوجيين من خلال الإرشاد ومشاركة المعرفة التعاونية وممارسات DevOps المتطورة."
   },
-  "image": "/src/assets/images/founder/mohamed-radwan.png",
   "socialLinks": [
     {
       "name": "LinkedIn",

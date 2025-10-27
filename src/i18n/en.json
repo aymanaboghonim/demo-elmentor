@@ -34,12 +34,16 @@
   },
   "founder": {
     "title": "Founder's Vision",
-    "name": "Dr. Sarah Johnson",
-    "vision": "When I started Elmentor, my vision was simple yet ambitious: create a space where knowledge flows freely and connections spark transformation. Having experienced firsthand the impact of great mentorship early in my career, I wanted to build a platform that democratizes access to guidance and support. Today, Elmentor stands as a testament to the belief that when we invest in each other's growth, we all rise together."
+    "name": "Mohamed Radwan",
+    "vision": "Mohamed Radwan is a Microsoft MVP with over 24 years of experience in the tech industry. He has worked with more than 60 global enterprise companies, specializing in DevOps, Azure, Agile, and GitHub. Mohamed is passionate about automation, community contributions, and is a frequent speaker at major technology conferences. He founded DevOps Visions, a professional services entity, and the Elmentor Program to empower tech professionals through mentorship, collaborative knowledge sharing, and cutting-edge DevOps practices."
   },
   "news": {
     "title": "Latest Updates",
     "fallback": "Updates coming soon"
+  },
+  "gatherings": {
+    "title": "Community Gatherings",
+    "subtitle": "Connect and learn together at our global events"
   },
   "join": {
     "title": "Join the Community",
