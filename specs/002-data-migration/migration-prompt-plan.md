@@ -1,8 +1,14 @@
-# Data Migration Prompt & Plan Documentation
+# Data Migration Plan & Documentation
 
 **Date**: 2025-10-27
 **Feature**: 002-data-migration
 **Status**: Phase 3 Complete, Phase 4 Pending
+
+**Related Files**:
+- [Core Prompts](./core-prompts.md) - Reproducible prompts used
+- [Specification](./spec.md) - Detailed feature requirements
+- [Tasks](./tasks.md) - Implementation checklist
+- [Data Extraction](./data-extraction.md) - Content sourcing details
 
 ## 🎯 Original User Request
 
