@@ -116,6 +116,17 @@
 
 ---
 
+## Phase 7: Navigation Bar Feature (Extensible)
+
+**Goal**: Add a modular, extensible navigation bar that links to all major sections and supports i18n.
+
+- [ ] T039 Implement extensible navigation bar in `src/components/nav-bar.js` with i18n and smooth scroll.
+- [ ] T040 Integrate nav bar into layout in `src/main.js` and update section anchor structure if needed.
+- [ ] T041 Add navigation labels to i18n files and test language switching.
+- [ ] T042 Polish nav bar styling and accessibility in `src/assets/styles/sections.css`.
+
+---
+
 ## Dependencies & Execution Order
 
 ### Phase Dependencies

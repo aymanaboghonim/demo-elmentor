@@ -37,6 +37,10 @@ No explicit governance rules defined in `.specify/memory/constitution.md`; no ga
 └── checklists/
 ```
 
+### Navigation Bar Implementation
+
+- Implement a modular navigation bar in `src/components/nav-bar.js` that dynamically renders links based on a section config. Integrate it into the layout shell in `src/main.js` and ensure i18n support.
+
 ### Source Code (repository root)
 
 ```

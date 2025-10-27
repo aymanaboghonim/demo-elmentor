@@ -2,6 +2,7 @@ import './assets/styles/globals.css';
 import './assets/styles/sections.css';
 import { initLanguageToggle } from './components/language-toggle.js';
 import { initSmoothScroll } from './components/smooth-scroll.js';
+import { initNavBar } from './components/nav-bar.js';
 import { renderHero } from './sections/hero.js';
 import { renderAbout } from './sections/about.js';
 import { renderCircles } from './sections/circles.js';
@@ -40,7 +41,8 @@ document.addEventListener('DOMContentLoaded', () => {
   renderJoin();
   renderFooter();
 
-  // Initialize shared components
+  // Initialize navigation bar and shared components
+  initNavBar();
   initLanguageToggle();
   initSmoothScroll();
 });

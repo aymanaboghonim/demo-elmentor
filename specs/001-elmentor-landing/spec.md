@@ -76,6 +76,8 @@ Visitor seeks deeper trust signals by reading Founder Story and News/Updates to 
 - **FR-011**: Smooth scrolling MUST trigger when CTA or internal nav links target a lower section and complete within ≤1000ms perceived duration.
 - **FR-012**: Page MUST remain readable and navigable on mobile (<480px width) without horizontal scrolling.
 
+- **FR-013**: The site MUST include a navigation bar at the top, listing links to all major sections (Hero, About, Circles, Activities, Founder, News, Join). The navigation must be extensible to support future sections with minimal code changes. Navigation links must trigger smooth scrolling to the relevant section and update for the current language.
+
 ### Key Entities *(include if feature involves data)*
 
 - **Circle**: Represents a distinct participant group (attributes: name, short descriptor, display order).
