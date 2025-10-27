@@ -1,0 +1,38 @@
+[
+  {
+    "id": "mentors",
+    "name": { "en": "Mentors", "ar": "الموجهون" },
+    "description": { 
+      "en": "Experienced professionals sharing knowledge and guidance",
+      "ar": "محترفون ذوو خبرة يشاركون المعرفة والتوجيه"
+    },
+    "order": 1
+  },
+  {
+    "id": "mentees",
+    "name": { "en": "Mentees", "ar": "المتدربون" },
+    "description": {
+      "en": "Ambitious learners seeking growth and career development",
+      "ar": "متعلمون طموحون يسعون للنمو وتطوير المهنة"
+    },
+    "order": 2
+  },
+  {
+    "id": "alumni",
+    "name": { "en": "Alumni", "ar": "الخريجون" },
+    "description": {
+      "en": "Past participants continuing to support the community",
+      "ar": "المشاركون السابقون يواصلون دعم المجتمع"
+    },
+    "order": 3
+  },
+  {
+    "id": "partners",
+    "name": { "en": "Partners", "ar": "الشركاء" },
+    "description": {
+      "en": "Organizations collaborating to expand mentorship opportunities",
+      "ar": "منظمات تتعاون لتوسيع فرص الإرشاد"
+    },
+    "order": 4
+  }
+]

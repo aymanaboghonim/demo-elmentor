@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "circles": "Circles",
+    "activities": "Activities & Benefits",
+    "founder": "Founder Story",
+    "news": "Updates",
+    "join": "Join Us"
+  },
+  "hero": {
+    "title": "Elmentor Program",
+    "subtitle": "Empowering mentorship connections that transform careers and communities",
+    "cta": "Join the Community"
+  },
+  "about": {
+    "title": "About Elmentor",
+    "content": "Elmentor Program is a vibrant mentorship community dedicated to fostering meaningful connections between experienced mentors and aspiring mentees. We believe in the transformative power of guidance, knowledge sharing, and mutual growth. Our platform brings together professionals, students, and lifelong learners to build lasting relationships that drive personal and professional success."
+  },
+  "circles": {
+    "title": "Our Circles"
+  },
+  "activities": {
+    "title": "Activities & Benefits",
+    "items": [
+      "One-on-one mentorship sessions",
+      "Group workshops and webinars",
+      "Networking events and mixers",
+      "Career development resources",
+      "Skill-building programs",
+      "Access to exclusive content",
+      "Community support network"
+    ]
+  },
+  "founder": {
+    "title": "Founder's Vision",
+    "name": "Dr. Sarah Johnson",
+    "vision": "When I started Elmentor, my vision was simple yet ambitious: create a space where knowledge flows freely and connections spark transformation. Having experienced firsthand the impact of great mentorship early in my career, I wanted to build a platform that democratizes access to guidance and support. Today, Elmentor stands as a testament to the belief that when we invest in each other's growth, we all rise together."
+  },
+  "news": {
+    "title": "Latest Updates",
+    "fallback": "Updates coming soon"
+  },
+  "join": {
+    "title": "Join the Community",
+    "subtitle": "Take the first step towards transformative mentorship",
+    "form": {
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "roleLabel": "I want to join as:",
+      "roles": {
+        "mentor": "Mentor",
+        "mentee": "Mentee",
+        "partner": "Partner",
+        "other": "Other"
+      },
+      "messagePlaceholder": "Tell us about yourself (optional)",
+      "submit": "Submit Interest",
+      "success": "Thank you! We'll be in touch soon.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Elmentor Program. All rights reserved.",
+    "social": "Follow us"
+  }
+}

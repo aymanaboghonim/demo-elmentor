@@ -1,0 +1,93 @@
+openapi: 3.1.0
+info:
+  title: Elmentor Interest Form Submission
+  version: 0.1.0
+  description: Public client-only contract describing the payload sent from the landing page to Formspree.
+paths:
+  /f/{form_id}:
+    post:
+      summary: Submit interest form
+      description: Sends a visitor's interest details to Formspree without leaving the landing page.
+      operationId: submitInterest
+      tags:
+        - join-contact
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InterestSubmission'
+      responses:
+        "200":
+          description: Formspree accepted the submission and will forward via email.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SubmissionAck'
+        "400":
+          description: Client-side validation should prevent this; indicates malformed payload.
+        "422":
+          description: Formspree validation error (e.g., missing required field).
+        "429":
+          description: Rate limit triggered; UI must show retry guidance.
+        default:
+          description: Unexpected error response; UI displays generic failure state.
+components:
+  schemas:
+    InterestSubmission:
+      type: object
+      required:
+        - name
+        - email
+        - role
+        - locale
+      properties:
+        name:
+          type: string
+          maxLength: 80
+          description: Visitor full name.
+        email:
+          type: string
+          format: email
+          description: Visitor contact email address.
+        role:
+          type: string
+          enum:
+            - mentor
+            - mentee
+            - partner
+            - other
+          description: Selected role aligning with spec FR-008.
+        message:
+          type: string
+          maxLength: 500
+          description: Optional context provided by the visitor.
+        locale:
+          type: string
+          enum:
+            - en
+            - ar
+          description: Language active when the form was submitted.
+        timestamp:
+          type: string
+          format: date-time
+          description: Client-captured submission time for analytics.
+    SubmissionAck:
+      type: object
+      properties:
+        ok:
+          type: boolean
+          description: Indicates acceptance.
+        id:
+          type: string
+          description: Formspree submission identifier.
+        next:
+          type: object
+          properties:
+            action:
+              type: string
+              description: Suggested client follow-up (e.g., show confirmation).
+            redirect:
+              type: string
+              nullable: true
+              description: Redirect URL if Formspree requires it; null for stay-on-page flows.
