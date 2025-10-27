@@ -51,23 +51,32 @@ main {
 }
 
 section {
-  padding: var(--spacing-xl) var(--spacing-md);
-  max-width: 1200px;
-  margin-inline: auto;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
-  line-height: 1.2;
-  margin-block-end: var(--spacing-md);
-}
-
-h1 {
-  font-size: var(--font-size-3xl);
-}
-
-h2 {
-  font-size: var(--font-size-2xl);
+  /* Primary color set: blue-cyan modern gradient */
+  --color-primary: #4f46e5; /* Indigo 600 */
+  --color-secondary: #06b6d4; /* Cyan 500 */
+  --color-accent: #7c3aed; /* Violet 600 */
+  --color-bg: #f8fafc; /* Light background */
+  --color-bg-alt: #f1f5f9; /* Section alt background */
+  --color-bg-hero: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Hero gradient */
+  --color-bg-nav: linear-gradient(90deg, #4f46e5 0%, #06b6d4 100%); /* Nav gradient */
+  --color-bg-footer: #22223b; /* Footer dark */
+  --color-text: #22223b; /* Main text */
+  --color-text-light: #64748b; /* Muted text */
+  --color-text-invert: #fff; /* For dark/gradient backgrounds */
+  --color-border: #e0e7ef; /* Border */
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+  /* Typography */
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 2.5rem;
+  /* Animation */
+  --transition-base: 0.2s;
 }
 
 h3 {
