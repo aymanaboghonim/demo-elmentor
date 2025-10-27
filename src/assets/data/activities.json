@@ -1,0 +1,118 @@
+{
+  "categories": [
+    {
+      "id": "technical-skills",
+      "name": {
+        "en": "Technical Skills & Projects",
+        "ar": "المهارات التقنية والمشاريع"
+      },
+      "items": [
+        {
+          "en": "DevOps Public Sessions",
+          "ar": "جلسات DevOps العامة"
+        },
+        {
+          "en": "Community Projects (Real-world practice)",
+          "ar": "مشاريع المجتمع (ممارسة حقيقية)"
+        }
+      ]
+    },
+    {
+      "id": "soft-skills",
+      "name": {
+        "en": "Soft Skills Development",
+        "ar": "تطوير المهارات الناعمة"
+      },
+      "items": [
+        {
+          "en": "Communication Skills",
+          "ar": "مهارات التواصل"
+        },
+        {
+          "en": "Negotiation Skills",
+          "ar": "مهارات التفاوض"
+        },
+        {
+          "en": "Understanding Corporate Dynamics",
+          "ar": "فهم الديناميكيات الشركاتية"
+        },
+        {
+          "en": "Self-Management (Time, Motivation)",
+          "ar": "إدارة الذات (الوقت، الدافعية)"
+        }
+      ]
+    },
+    {
+      "id": "networking",
+      "name": {
+        "en": "Networking & Resources",
+        "ar": "التواصل والموارد"
+      },
+      "items": [
+        {
+          "en": "Professional Networking",
+          "ar": "التواصل المهني"
+        },
+        {
+          "en": "Resource Sharing",
+          "ar": "مشاركة الموارد"
+        }
+      ]
+    },
+    {
+      "id": "career-development",
+      "name": {
+        "en": "Career Development",
+        "ar": "تطوير المهنة"
+      },
+      "items": [
+        {
+          "en": "CV Reviews",
+          "ar": "مراجعة السيرة الذاتية"
+        },
+        {
+          "en": "Job Referrals",
+          "ar": "إحالات العمل"
+        },
+        {
+          "en": "Career Guidance",
+          "ar": "الإرشاد المهني"
+        }
+      ]
+    },
+    {
+      "id": "growth-support",
+      "name": {
+        "en": "Growth & Support",
+        "ar": "النمو والدعم"
+      },
+      "items": [
+        {
+          "en": "Peer Support Groups",
+          "ar": "مجموعات الدعم بين الأقران"
+        },
+        {
+          "en": "Personal Growth Workshops",
+          "ar": "ورش عمل النمو الشخصي"
+        }
+      ]
+    },
+    {
+      "id": "mentorship",
+      "name": {
+        "en": "Mentorship Services",
+        "ar": "خدمات الإرشاد"
+      },
+      "items": [
+        {
+          "en": "One-on-One Mentorship",
+          "ar": "الإرشاد فردي"
+        },
+        {
+          "en": "Mentor-For-All Sessions",
+          "ar": "جلسات المرشد للجميع"
+        }
+      ]
+    }
+  ]
+}

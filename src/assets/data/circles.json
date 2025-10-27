@@ -1,38 +1,74 @@
 [
   {
-    "id": "mentors",
-    "name": { "en": "Mentors", "ar": "الموجهون" },
-    "description": { 
-      "en": "Experienced professionals sharing knowledge and guidance",
-      "ar": "محترفون ذوو خبرة يشاركون المعرفة والتوجيه"
+    "id": "audience",
+    "name": {
+      "en": "Audience",
+      "ar": "الجمهور"
+    },
+    "description": {
+      "en": "External audience who engage with us from the outside",
+      "ar": "الجمهور الخارجي الذي يتفاعل معنا من الخارج"
     },
     "order": 1
   },
   {
-    "id": "mentees",
-    "name": { "en": "Mentees", "ar": "المتدربون" },
+    "id": "guests",
+    "name": {
+      "en": "Guests",
+      "ar": "الضيوف"
+    },
     "description": {
-      "en": "Ambitious learners seeking growth and career development",
-      "ar": "متعلمون طموحون يسعون للنمو وتطوير المهنة"
+      "en": "Occasional participants with limited access",
+      "ar": "المشاركون المنتظمون ذوي الوصول المحدود"
     },
     "order": 2
   },
   {
-    "id": "alumni",
-    "name": { "en": "Alumni", "ar": "الخريجون" },
+    "id": "members",
+    "name": {
+      "en": "Members",
+      "ar": "الأعضاء"
+    },
     "description": {
-      "en": "Past participants continuing to support the community",
-      "ar": "المشاركون السابقون يواصلون دعم المجتمع"
+      "en": "Active, permanent participants in the community",
+      "ar": "المشاركون النشطون والدائمين في المجتمع"
     },
     "order": 3
   },
   {
-    "id": "partners",
-    "name": { "en": "Partners", "ar": "الشركاء" },
+    "id": "group-advisory",
+    "name": {
+      "en": "Group Advisory (GAs)",
+      "ar": "المستشارون الجماعيون (GAs)"
+    },
     "description": {
-      "en": "Organizations collaborating to expand mentorship opportunities",
-      "ar": "منظمات تتعاون لتوسيع فرص الإرشاد"
+      "en": "Leaders who support and guide members",
+      "ar": "القادة الذين يدعمون ويرشدون الأعضاء"
     },
     "order": 4
+  },
+  {
+    "id": "lead-group-advisory",
+    "name": {
+      "en": "Lead Group Advisory (LGAs)",
+      "ar": "قادة المستشارين الجماعيين (LGAs)"
+    },
+    "description": {
+      "en": "Guide both the Group Advisory and members",
+      "ar": "يرشدون كلاً من المستشارين الجماعيين والأعضاء"
+    },
+    "order": 5
+  },
+  {
+    "id": "executives",
+    "name": {
+      "en": "Executives",
+      "ar": "التنفيذيون"
+    },
+    "description": {
+      "en": "Set strategic direction and oversee all layers",
+      "ar": "يحددون الاتجاه الاستراتيجي ويشرفون على جميع المستويات"
+    },
+    "order": 6
   }
 ]
