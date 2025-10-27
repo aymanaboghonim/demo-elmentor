@@ -2,7 +2,7 @@
 #nav-header {
   position: sticky;
   top: 0;
-  background: var(--color-bg-nav);
+  background: linear-gradient(90deg, #4f46e5 0%, #06b6d4 100%);
   box-shadow: 0 2px 12px rgba(0,0,0,0.07);
   border-block-end: none;
   padding: var(--spacing-sm) var(--spacing-xl);
@@ -75,9 +75,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: var(--color-bg-hero);
-  color: var(--color-text-invert);
-  margin-top: var(--spacing-lg);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
 }
 
 #hero h1 {
@@ -105,7 +104,6 @@
 /* About Section */
 #about {
   background-color: var(--color-bg-alt);
-  color: var(--color-text);
 }
 
 /* Circles Section */
@@ -114,7 +112,6 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: var(--spacing-lg);
   margin-block-start: var(--spacing-lg);
-  color: var(--color-text);
 }
 
 .circle-card {
@@ -138,7 +135,6 @@
 /* Activities Section */
 #activities {
   background-color: var(--color-bg-alt);
-  color: var(--color-text);
 }
 
 #activities ul {
@@ -160,8 +156,6 @@
 /* Founder Section */
 #founder {
   text-align: center;
-  background: #f8fafc;
-  color: var(--color-text);
 }
 
 #founder .founder-content {
@@ -178,7 +172,6 @@
 /* News Section */
 #news {
   background-color: var(--color-bg-alt);
-  color: var(--color-text);
 }
 
 .news-fallback {
@@ -190,8 +183,8 @@
 
 /* Join Section */
 #join {
-  background: var(--color-bg-hero);
-  color: var(--color-text-invert);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
   text-align: center;
 }
 
@@ -256,8 +249,8 @@
 
 /* Footer */
 #footer {
-  background-color: var(--color-bg-footer);
-  color: var(--color-text-invert);
+  background-color: var(--color-text);
+  color: white;
   padding: var(--spacing-lg) var(--spacing-md);
   text-align: center;
 }
