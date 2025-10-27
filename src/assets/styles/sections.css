@@ -163,6 +163,61 @@
   margin-inline: auto;
 }
 
+#founder .founder-profile {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-lg);
+  margin-block-start: var(--spacing-md);
+}
+
+#founder .founder-image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+#founder .founder-info {
+  text-align: left;
+}
+
+#founder .founder-bio {
+  margin-block-start: var(--spacing-sm);
+  color: var(--color-text);
+}
+
+#founder .founder-social {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-block-start: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.social-card {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  padding: 0.75rem 1rem;
+  background: white;
+  color: var(--color-primary);
+  border-radius: 0.5rem;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.social-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+}
+
+.social-name {
+  padding-left: 0.25rem;
+}
+
 #founder .founder-name {
   color: var(--color-primary);
   font-size: var(--font-size-xl);
