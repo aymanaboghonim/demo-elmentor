@@ -41,4 +41,33 @@
     "source": "Elmentor Program",
     "externalLink": "https://github.com/ElmentorProgram"
   }
+  ,
+  {
+    "id": "tokyo-gathering-report",
+    "title": {
+      "en": "Tokyo 2022 Meetup: Key Takeaways",
+      "ar": "تقرير لقاء طوكيو 2022"
+    },
+    "summary": {
+      "en": "Highlights and recordings from our Tokyo meetup where community contributors showcased DevOps best practices.",
+      "ar": "أبرز النقاط والتسجيلات من لقاءنا في طوكيو حيث عرض المساهمون أفضل ممارسات DevOps."
+    },
+    "date": "2023-11-30",
+    "source": "Elmentor Events",
+    "externalLink": "https://github.com/ElmentorProgram/elmentorprogram.github.io"
+  },
+  {
+    "id": "cairo-2023-summary",
+    "title": {
+      "en": "Cairo 2023: Community Workshop Summary",
+      "ar": "القاهرة 2023: ملخص ورشة العمل المجتمعية"
+    },
+    "summary": {
+      "en": "A recap of hands-on workshops and networking sessions from our Cairo event.",
+      "ar": "ملخص للورش العملية وجلسات التواصل من فعالية القاهرة."
+    },
+    "date": "2023-02-20",
+    "source": "Elmentor Events",
+    "externalLink": "https://github.com/ElmentorProgram/elmentorprogram.github.io"
+  }
 ]

@@ -1,5 +1,7 @@
 import { getTranslation, getCurrentLang } from '../components/language-toggle.js';
 import founderData from '../assets/data/founder.json';
+// Prefer static import for image so bundlers resolve it reliably
+import founderImg from '../assets/images/founder/mohamed-radwan.png';
 
 export function renderFounder() {
   const founder = document.getElementById('founder');
@@ -7,11 +9,11 @@ export function renderFounder() {
   const updateContent = () => {
     const lang = getCurrentLang();
 
-    // Resolve image path so it works after Vite build (use import.meta.url)
+    // Use static import when available; otherwise fall back to resolving JSON path
     const resolveImage = (path) => {
+      if (founderImg) return founderImg;
       try {
         if (typeof path === 'string' && path.startsWith('/src/')) {
-          // convert '/src/assets/...' -> '../assets/...'
           const rel = '../' + path.slice(5);
           return new URL(rel, import.meta.url).href;
         }
