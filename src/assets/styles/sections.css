@@ -15,15 +15,21 @@
 
 .main-nav {
   display: flex;
-  gap: var(--spacing-lg);
+  flex-wrap: nowrap;
+  gap: var(--spacing-2xl);
   list-style: none;
   margin: 0;
   padding: 0;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: auto;
 }
 
 .main-nav li {
   display: flex;
   align-items: center;
+  white-space: nowrap;
 }
 
 
@@ -249,15 +255,29 @@
   text-align: center;
 }
 
+@media (max-width: 900px) {
+  .main-nav {
+    gap: var(--spacing-lg);
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .main-nav li {
+    margin-block-end: 0.25rem;
+  }
+}
+
 @media (max-width: 480px) {
   #hero {
     padding-inline: var(--spacing-md);
   }
-  
+  .main-nav {
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+    font-size: 0.98rem;
+  }
   .circles-grid {
     grid-template-columns: 1fr;
   }
-  
   #activities ul {
     grid-template-columns: 1fr;
   }
