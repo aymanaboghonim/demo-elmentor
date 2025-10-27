@@ -1,0 +1,46 @@
+{
+  "mission": {
+    "en": "Elmentor Program is a private community operated by DevOps Visions professional services.",
+    "ar": "برنامج إلمنتور هو مجتمع خاص يديره خدمات رؤى DevOps المهنية."
+  },
+  "vision": {
+    "en": "Empowering tech professionals through dedicated mentorship and collaborative knowledge sharing.",
+    "ar": "تمكين المهنيين التكنولوجيين من خلال الإرشاد المخصص ومشاركة المعرفة التعاونية."
+  },
+  "coreValues": [
+    {
+      "en": "Fostering a transparent, inclusive, and supportive community environment.",
+      "ar": "تعزيز بيئة مجتمعية شفافة وشاملة وداعمة."
+    },
+    {
+      "en": "Encouraging continuous learning, professional growth, and the pursuit of excellence.",
+      "ar": "تشجيع التعلم المستمر والنمو المهني والسعي للتميز."
+    },
+    {
+      "en": "Providing genuine value and unwavering support for every member's journey.",
+      "ar": "تقديم قيمة حقيقية ودعم ثابت لرحلة كل عضو."
+    }
+  ],
+  "offerings": [
+    {
+      "en": "Mentorship from experienced industry leaders and Microsoft MVPs.",
+      "ar": "الإرشاد من قادة الصناعة ذوي الخبرة ومستشاري Microsoft MVP."
+    },
+    {
+      "en": "Access to curated knowledge, learning resources, and exclusive content.",
+      "ar": "الوصول إلى المعرفة المنسقة وموارد التعلم والمحتوى الحصري."
+    },
+    {
+      "en": "Networking opportunities with a diverse global community of tech professionals.",
+      "ar": "فرص التواصل مع مجتمع عالمي متنوع من المهنيين التكنولوجيين."
+    },
+    {
+      "en": "Opportunities for hands-on experience through real-world community projects and open-source contributions.",
+      "ar": "فرص للحصول على خبرة عملية من خلال مشاريع المجتمع الحقيقية والمساهمات مفتوحة المصدر."
+    },
+    {
+      "en": "Comprehensive career development support (CV reviews, referrals, job offers).",
+      "ar": "دعم شامل لتطوير المهنة (مراجعة السيرة الذاتية، الإحالات، عروض العمل)."
+    }
+  ]
+}

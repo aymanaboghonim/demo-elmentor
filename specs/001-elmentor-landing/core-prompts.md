@@ -76,4 +76,13 @@ Each prompt above can be reused in a spec-driven workflow to:
 
 ---
 
+## 8. Real Data Migration from Production Website
+**Prompt:**
+> "Scrape real data from the existing Elmentor website (https://elmentorprogram.github.io/) and populate our sections with authentic content. Create a new spec, plan, and tasks for extracting About, Circles, Activities, Founder, Gatherings, and News data, then implement section by section."
+
+**Function:**
+- Migrates from placeholder/mock data to production-verified content by systematically extracting, structuring, and populating each section with authentic Elmentor Program data. Ensures bilingual support and content accuracy.
+
+---
+
 *This file is auto-generated for reproducibility and onboarding. Update as new core prompts are added to the workflow.*

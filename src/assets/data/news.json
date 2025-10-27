@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "copilot-integration",
+    "title": {
+      "en": "GitHub Copilot Integration in Elmentor Sessions",
+      "ar": "تكامل GitHub Copilot في جلسات إلمنتور"
+    },
+    "summary": {
+      "en": "Learn how GitHub Copilot is transforming our DevOps mentoring sessions and accelerating skill development.",
+      "ar": "تعرف على كيفية تحويل GitHub Copilot جلساتنا التدريبية في DevOps وتسريع تطوير المهارات."
+    },
+    "date": "2024-12-15",
+    "source": "Elmentor Program",
+    "externalLink": "https://github.com/ElmentorProgram"
+  },
+  {
+    "id": "community-expansion",
+    "title": {
+      "en": "Elmentor Community Reaches 500+ Members Milestone",
+      "ar": "مجتمع إلمنتور يصل إلى معلم 500+ عضو"
+    },
+    "summary": {
+      "en": "Celebrating our growing community of DevOps professionals and the impact of collaborative learning.",
+      "ar": "الاحتفال بمجتمعنا المتنامي من المهنيين في DevOps وتأثير التعلم التعاوني."
+    },
+    "date": "2024-11-20",
+    "source": "DevOps Visions",
+    "externalLink": "https://github.com/DevOpsVisions"
+  },
+  {
+    "id": "mentorship-program",
+    "title": {
+      "en": "New One-on-One Mentorship Program Launch",
+      "ar": "إطلاق برنامج الإرشاد الفردي الجديد"
+    },
+    "summary": {
+      "en": "Introducing personalized mentorship opportunities connecting experienced MVPs with aspiring DevOps professionals.",
+      "ar": "تقديم فرص الإرشاد الشخصية التي تربط MVP ذوي الخبرة بالمهنيين الطموحين في DevOps."
+    },
+    "date": "2024-10-10",
+    "source": "Elmentor Program",
+    "externalLink": "https://github.com/ElmentorProgram"
+  }
+]

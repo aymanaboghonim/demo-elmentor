@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "id": "tokyo-2022",
+      "title": {
+        "en": "Japan/Tokyo Nov 2022",
+        "ar": "اليابان/طوكيو نوفمبر 2022"
+      },
+      "location": {
+        "en": "Tokyo, Japan",
+        "ar": "طوكيو، اليابان"
+      },
+      "date": {
+        "en": "November 2022",
+        "ar": "نوفمبر 2022"
+      },
+      "image": "/src/assets/images/gatherings/japan-tokyo-2022.jpg"
+    },
+    {
+      "id": "cairo-2023",
+      "title": {
+        "en": "Egypt/Cairo Feb 2023",
+        "ar": "مصر/القاهرة فبراير 2023"
+      },
+      "location": {
+        "en": "Cairo, Egypt",
+        "ar": "القاهرة، مصر"
+      },
+      "date": {
+        "en": "February 2023",
+        "ar": "فبراير 2023"
+      },
+      "image": "/src/assets/images/gatherings/egypt-cairo-2023.jpg"
+    },
+    {
+      "id": "seattle-2023",
+      "title": {
+        "en": "USA/Seattle April 2023",
+        "ar": "الولايات المتحدة/سياتل أبريل 2023"
+      },
+      "location": {
+        "en": "Seattle, USA",
+        "ar": "سياتل، الولايات المتحدة"
+      },
+      "date": {
+        "en": "April 2023",
+        "ar": "أبريل 2023"
+      },
+      "image": "/src/assets/images/gatherings/usa-seattle-2023.jpg"
+    }
+  ]
+}
